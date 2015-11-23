@@ -67,3 +67,7 @@
 .nav { margin-bottom: 0; }
 .nav > li.dropdown.open { position: static; }
 .nav > li.dropdown.open .dropdown-menu { width: 100%; left:0; right:0; }
+
+.grid-nav-cont { padding: 0 30px 10px;}
+.grid-nav-cont a { color: #fff; text-decoration: none; line-height: 1.6;}
+.grid-nav-cont a:hover { color: #d4d4d4; }

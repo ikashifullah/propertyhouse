@@ -1,33 +1,14 @@
 /*!
- * Yamm!3
- * Yet another megamenu for Bootstrap
- * http://geedmo.github.com/yamm3
- *
- * Demo styles
- */
+* Yamm!3
+* Yet another megamenu for Bootstrap
+* http://geedmo.github.com/yamm3
+                           *
+                           * Demo styles
+                           */
 
 /* layout */
 
 /* menu styes */
 /* Grid demo styles */
-.grid-demo {
-  padding: 0 30px 10px;
-}
-.grid-demo a {
-  color: #fff;
-  text-decoration: none;
-  line-height: 1.6;
-}
-.grid-demo a:hover {
-   color: #d4d4d4;
-}
 
-  .grid-demo [class*="col-"] {
-/*    margin-top: 5px;
-    margin-bottom: 5px;
-        line-height: 2;
-    */
-    font-size: 1em;
-    color: #fff;
-  }
 
