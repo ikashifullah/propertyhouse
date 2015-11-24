@@ -1,7 +1,7 @@
 .logo {
     padding: 10px 0;
 }
-.big-button {
+.big-button, .home-banner-form-btn {
     border-radius: 2px;
     border: 1px solid #d8d9da;
     border-bottom-width: 3px;
@@ -27,6 +27,12 @@
 .red {
     background-color: #ca0008;
     border-color: #8f0006;
+}
+.home-banner-form-btn {
+    padding: 0 50px;
+}
+.black {
+    background-color: #383838;
 }
 .top-social-icons ul {
     list-style: none;
@@ -60,9 +66,21 @@
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
 
 .navbar-nav > li > a {padding-top:7px !important; padding-bottom:6px !important;}
-.navbar {min-height:33px !important}
+.navbar {min-height:33px !important; margin-bottom: 10px;}
 .navbar-nav>li>.dropdown-menu {border: 0;}
 
 .nav { margin-bottom: 0; }
 .nav > li.dropdown.open { position: static; }
 .nav > li.dropdown.open .dropdown-menu { width: 100%; left:0; right:0; }
+
+.home-banner-form { background: url('../images/property-house-banner.jpg'); height: 270px; width: 100%;}
+.banner-from { padding: 50px 10px; margin-left: 30px;}
+.banner-from select { padding: 0;height: 22px;margin-bottom: 10px;border-radius: 2px; border: 1px solid #707070;}
+.banner-from input[type="text"] {height: 26px !important; border: 1px solid #707070;}
+.banner-from label {font-weight: normal; margin-left: 16px; font-size: 0.875em; margin-bottom: 0;}
+.banner-from .inner-gray-box [class*="col-md"]{ padding-right: 5px; padding-left: 5px;}
+.inner-gray-box {min-height: 100px; background: #e4e4e4;}
+.main-heading {font-size: 25px;}
+.main-content h2 {font-size: 19px; margin-bottom: 20px; color: #2d6a70; border-bottom: 1px solid #2d6a70; padding-bottom: 10px;}
+.property-type-list {list-style: none; margin: 0; padding: 0;}
+.property-type-list li {list-style: none;  margin-bottom: 12px;}
